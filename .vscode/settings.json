@@ -1,0 +1,12 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "gopi",
+            "group": "mybooks",
+            "database": "${workspaceFolder:book-review}/backend/book.db"
+            
+        }
+    ]
+}

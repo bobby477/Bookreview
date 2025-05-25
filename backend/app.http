@@ -1,0 +1,29 @@
+GET http://127.0.0.1:5000/
+
+###
+
+GET http://localhost:5000/books/1
+
+###
+
+POST http://localhost:5000/books
+Content-Type: application/json
+
+{
+  "title": "New Book",
+  "author": "John Doe",
+  "genre": "Fiction",
+  "description": "A great book",
+  "image_url": "https://example.com/image.jpg"
+}
+
+###
+POST http://localhost:5000/review
+Content-Type: application/json
+
+{
+  
+  "user_name": "Alice",
+  "rating": 5,
+  "review": "Amazing book! Highly recommended."
+}
